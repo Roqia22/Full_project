@@ -1,5 +1,5 @@
-
-var UserName = localStorage.getItem("username")+"🎀"  || "Sign Up";
+let storedName = localStorage.getItem("username");
+let UserName = storedName ? storedName + "🎀" : "Sign Up";
 let signUP = document.querySelectorAll(".links .signUP");
 signUP[0].innerHTML = UserName;
 signUP[1].innerHTML = UserName;
