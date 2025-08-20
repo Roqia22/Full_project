@@ -4,6 +4,16 @@ let signUP = document.querySelectorAll(".links .signUP");
 signUP[0].innerHTML = UserName;
 signUP[1].innerHTML = UserName;
 
+// ---------------variables -------------------
+let Cart_counter = 0;
+var n=document.querySelector(".header .icons .shopping mark");
+var cart=document.querySelector(".cart")
+var cart_parent=document.querySelector(".cart_parent")
+
+var Flash_Sales = document.querySelector(".Flash_Sales"); 
+var ViewButton = document.querySelector("#viewMore");
+
+
 
 var products_detail = [
   {
@@ -91,10 +101,6 @@ var products_detail2 = [
     title:"S-Series Comfort Chair"
   }
 ]
-
-var Flash_Sales = document.querySelector(".Flash_Sales"); 
-var ViewButton = document.querySelector("#viewMore");
-
 function renderProducts(products , Append=false) {
    let p = products
     .map((item) => {
@@ -167,10 +173,7 @@ function HEART()
       
   });
 });}
-let Cart_counter = 0;
-var n=document.querySelector(".icons .shopping mark");
-var cart=document.querySelector(".cart")
-var cart_parent=document.querySelector(".cart_parent")
+
 
 
 function UpdatedAddToCart(){
