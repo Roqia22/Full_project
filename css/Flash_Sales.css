@@ -115,9 +115,7 @@ i {
 .Flash_Sales_container {
   width: 80%;
   margin: auto;
-  /* min-height: 100vh; */
   padding-top: 10px;
-  /* position: relative; */
 }
 .viewMore_button{
  margin-top: 50px;
@@ -543,7 +541,7 @@ i {
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(4,24%);
-    gap: 60px;
+    grid-gap: 0 10px ;
 }
 .section5_images img{
     height: 100px;
