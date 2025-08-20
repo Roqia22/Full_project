@@ -115,7 +115,7 @@ i {
 .Flash_Sales_container {
   width: 80%;
   margin: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding-top: 10px;
   /* position: relative; */
 }
